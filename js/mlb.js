@@ -18,7 +18,7 @@ arrow_left.onclick = function () {
     x1 = x2;
     x = x2.toString();
     var img_name = 'img_' + x;
-    document.getElementById('img').src = "image_mlb/" + img_name + ".jpg";
+    document.getElementById('img').src = "../../image_USA/image_mlb/" + img_name + ".jpg";
 };
 
 arrow_right.onclick = function () {
@@ -36,5 +36,5 @@ arrow_right.onclick = function () {
     x = x1;
     x = x1.toString();
     var img_name = 'img_' + x;
-    document.getElementById('img').src = "image_mlb/" + img_name + ".jpg";
+    document.getElementById('img').src = "../../image_USA/image_mlb/" + img_name + ".jpg";
 };
