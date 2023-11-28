@@ -10,7 +10,7 @@
 /*框出一個在flexible container中漂移的box，文字及物件置中、由左至右排列*/
 .section_block {
     width: 75vw;
-    height: 85vh;
+    height: 90vh;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -57,7 +57,7 @@
 }
 
 .style_2 {
-    height: 60vh;
+    height: 75vh;
     background-color: transparent;
     font: bold 3vmin 'Noto Sans TC', sans-serif;
     color: white;
@@ -150,7 +150,7 @@
     /*背景圖片上下左右置中*/
     background-position: center center;
     /*圖片滿版，若要等比例呈現圖片則把cover改為contain*/
-    background-size: cover;
+    background-size: auto 90%;
     /*圖片不隨滾軸移動*/
     background-attachment: fixed;
 }
@@ -163,7 +163,7 @@
     /*背景圖片上下左右置中*/
     background-position: center center;
     /*圖片滿版，若要等比例呈現圖片則把cover改為contain*/
-    background-size: cover;
+    background-size: auto 90%;
     /*圖片不隨滾軸移動*/
     background-attachment: fixed;
 }
@@ -176,7 +176,7 @@
     /*背景圖片上下左右置中*/
     background-position: center center;
     /*圖片滿版，若要等比例呈現圖片則把cover改為contain*/
-    background-size: cover;
+    background-size: auto 90%;
     /*圖片不隨滾軸移動*/
     background-attachment: fixed;
 }
@@ -189,7 +189,7 @@
     /*背景圖片上下左右置中*/
     background-position: center center;
     /*圖片滿版，若要等比例呈現圖片則把cover改為contain*/
-    background-size: cover;
+    background-size: auto 90%;
     /*圖片不隨滾軸移動*/
     background-attachment: fixed;
 }
@@ -202,7 +202,7 @@
     /*背景圖片上下左右置中*/
     background-position: center center;
     /*圖片滿版，若要等比例呈現圖片則把cover改為contain*/
-    background-size: cover;
+    background-size: auto 90%;
     /*圖片不隨滾軸移動*/
     background-attachment: fixed;
 }
@@ -215,7 +215,7 @@
     /*背景圖片上下左右置中*/
     background-position: center center;
     /*圖片滿版，若要等比例呈現圖片則把cover改為contain*/
-    background-size: cover;
+    background-size: auto 90%;
     /*圖片不隨滾軸移動*/
     background-attachment: fixed;
 }
@@ -228,7 +228,7 @@
     /*背景圖片上下左右置中*/
     background-position: center center;
     /*圖片滿版，若要等比例呈現圖片則把cover改為contain*/
-    background-size: cover;
+    background-size: auto 90%;
     /*圖片不隨滾軸移動*/
     background-attachment: fixed;
 }
@@ -241,7 +241,7 @@
     /*背景圖片上下左右置中*/
     background-position: center center;
     /*圖片滿版，若要等比例呈現圖片則把cover改為contain*/
-    background-size: cover;
+    background-size: auto 90%;
     /*圖片不隨滾軸移動*/
     background-attachment: fixed;
 }
@@ -254,7 +254,7 @@
     /*背景圖片上下左右置中*/
     background-position: center center;
     /*圖片滿版，若要等比例呈現圖片則把cover改為contain*/
-    background-size: cover;
+    background-size: auto 90%;
     /*圖片不隨滾軸移動*/
     background-attachment: fixed;
 }
@@ -267,7 +267,7 @@
     /*背景圖片上下左右置中*/
     background-position: center center;
     /*圖片滿版，若要等比例呈現圖片則把cover改為contain*/
-    background-size: cover;
+    background-size: auto 90%;
     /*圖片不隨滾軸移動*/
     background-attachment: fixed;
 }
@@ -280,7 +280,7 @@
     /*背景圖片上下左右置中*/
     background-position: center center;
     /*圖片滿版，若要等比例呈現圖片則把cover改為contain*/
-    background-size: cover;
+    background-size: auto 90%;
     /*圖片不隨滾軸移動*/
     background-attachment: fixed;
 }
@@ -293,7 +293,7 @@
     /*背景圖片上下左右置中*/
     background-position: center center;
     /*圖片滿版，若要等比例呈現圖片則把cover改為contain*/
-    background-size: cover;
+    background-size: auto 90%;
     /*圖片不隨滾軸移動*/
     background-attachment: fixed;
 }
@@ -306,7 +306,7 @@
     /*背景圖片上下左右置中*/
     background-position: center center;
     /*圖片滿版，若要等比例呈現圖片則把cover改為contain*/
-    background-size: cover;
+    background-size: auto 90%;
     /*圖片不隨滾軸移動*/
     background-attachment: fixed;
 }
@@ -319,7 +319,7 @@
     /*背景圖片上下左右置中*/
     background-position: center center;
     /*圖片滿版，若要等比例呈現圖片則把cover改為contain*/
-    background-size: cover;
+    background-size: auto 90%;
     /*圖片不隨滾軸移動*/
     background-attachment: fixed;
 }
@@ -332,7 +332,7 @@
     /*背景圖片上下左右置中*/
     background-position: center center;
     /*圖片滿版，若要等比例呈現圖片則把cover改為contain*/
-    background-size: cover;
+    background-size: auto 90%;
     /*圖片不隨滾軸移動*/
     background-attachment: fixed;
 }
@@ -345,7 +345,7 @@
     /*背景圖片上下左右置中*/
     background-position: center center;
     /*圖片滿版，若要等比例呈現圖片則把cover改為contain*/
-    background-size: cover;
+    background-size: auto 90%;
     /*圖片不隨滾軸移動*/
     background-attachment: fixed;
 }
@@ -358,7 +358,7 @@
     /*背景圖片上下左右置中*/
     background-position: center center;
     /*圖片滿版，若要等比例呈現圖片則把cover改為contain*/
-    background-size: cover;
+    background-size: auto 90%;
     /*圖片不隨滾軸移動*/
     background-attachment: fixed;
 }

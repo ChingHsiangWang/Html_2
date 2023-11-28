@@ -11,6 +11,11 @@ arrow_left.onclick = function () {
     if (x2 < 1) {
         x2 = 17;
     }
+    if (x2 < 9) {
+        document.getElementById('position_name').innerHTML = 'SF AT&T Park';
+    } else {
+        document.getElementById('position_name').innerHTML = 'OAK Alameda County Coliseum';
+    }
     x1 = x2;
     x = x2.toString();
     var img_name = 'img_' + x;
@@ -23,6 +28,11 @@ arrow_right.onclick = function () {
     x1 = x1 + 1;
     if (x1 > 17) {
         x1 = 1;
+    }
+    if (x1 < 9) {
+        document.getElementById('position_name').innerText = 'SF AT&T Park';
+    } else {
+        document.getElementById('position_name').innerText = 'OAK Alameda County Coliseum';
     }
     x2 = x1;
     x = x1;
