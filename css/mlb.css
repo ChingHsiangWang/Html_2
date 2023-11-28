@@ -57,7 +57,7 @@
 }
 
 .style_2 {
-    height: 75vh;
+    height: 70vh;
     background-color: transparent;
     font: bold 3vmin 'Noto Sans TC', sans-serif;
     color: white;
@@ -78,8 +78,8 @@
 
 /*設定button樣式*/
 .button {
-    background-color: #2A9D8F;
-    color: #264653;
+    background-color: #FED9B7;
+    color: black;
     border: none;
     border-radius: 10px;
     font: bold 4vmin "Noto Sans TC", sans-serif;
@@ -88,16 +88,6 @@
 }
 
 .button:hover {
-    background-color: #875C74;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    font: bold 4vmin "Noto Sans TC", sans-serif;
-    text-shadow: 1px 1px 2px #000;
-    margin: 0.2em;
-}
-
-.button_2 {
     background-color: #2274A5;
     color: #E9F1F7;
     border: none;
@@ -107,20 +97,11 @@
     margin: 0.2em;
 }
 
-.button_2:hover {
-    background-color: #FED9B7;
-    color: #0081A7;
-    border: none;
-    border-radius: 10px;
-    font: bold 4vmin "Noto Sans TC", sans-serif;
-    text-shadow: 1px 1px 2px #E5E5E5;
-    margin: 0.2em;
-}
-
 /*箭頭按鈕*/
 .arrow {
     border: solid #FADF63;
     border-width: 0px 10px 10px 0;
+    border-radius: 4px;
     display: inline-block;
     padding: 5px;
     margin-top: 30vh;
@@ -129,6 +110,7 @@
 .arrow:hover {
     border: solid #3BF4FB;
     border-width: 0px 10px 10px 0;
+    border-radius: 4px;
     display: inline-block;
     padding: 5px;
     margin-top: 30vh;
@@ -142,223 +124,8 @@
     transform: rotate(135deg);
 }
 
-#img_1 {
-    /*插入背景圖片*/
-    background-image: url("../image_mlb/img_1.jpg");
-    /*圖片只出現一次，不重複*/
-    background-repeat: no-repeat;
-    /*背景圖片上下左右置中*/
-    background-position: center center;
-    /*圖片滿版，若要等比例呈現圖片則把cover改為contain*/
-    background-size: auto 90%;
-    /*圖片不隨滾軸移動*/
-    background-attachment: fixed;
-}
-
-#img_2 {
-    /*插入背景圖片*/
-    background-image: url("../image_mlb/img_2.jpg");
-    /*圖片只出現一次，不重複*/
-    background-repeat: no-repeat;
-    /*背景圖片上下左右置中*/
-    background-position: center center;
-    /*圖片滿版，若要等比例呈現圖片則把cover改為contain*/
-    background-size: auto 90%;
-    /*圖片不隨滾軸移動*/
-    background-attachment: fixed;
-}
-
-#img_3 {
-    /*插入背景圖片*/
-    background-image: url("../image_mlb/img_3.jpg");
-    /*圖片只出現一次，不重複*/
-    background-repeat: no-repeat;
-    /*背景圖片上下左右置中*/
-    background-position: center center;
-    /*圖片滿版，若要等比例呈現圖片則把cover改為contain*/
-    background-size: auto 90%;
-    /*圖片不隨滾軸移動*/
-    background-attachment: fixed;
-}
-
-#img_4 {
-    /*插入背景圖片*/
-    background-image: url("../image_mlb/img_4.jpg");
-    /*圖片只出現一次，不重複*/
-    background-repeat: no-repeat;
-    /*背景圖片上下左右置中*/
-    background-position: center center;
-    /*圖片滿版，若要等比例呈現圖片則把cover改為contain*/
-    background-size: auto 90%;
-    /*圖片不隨滾軸移動*/
-    background-attachment: fixed;
-}
-
-#img_5 {
-    /*插入背景圖片*/
-    background-image: url("../image_mlb/img_5.jpg");
-    /*圖片只出現一次，不重複*/
-    background-repeat: no-repeat;
-    /*背景圖片上下左右置中*/
-    background-position: center center;
-    /*圖片滿版，若要等比例呈現圖片則把cover改為contain*/
-    background-size: auto 90%;
-    /*圖片不隨滾軸移動*/
-    background-attachment: fixed;
-}
-
-#img_6 {
-    /*插入背景圖片*/
-    background-image: url("../image_mlb/img_6.jpg");
-    /*圖片只出現一次，不重複*/
-    background-repeat: no-repeat;
-    /*背景圖片上下左右置中*/
-    background-position: center center;
-    /*圖片滿版，若要等比例呈現圖片則把cover改為contain*/
-    background-size: auto 90%;
-    /*圖片不隨滾軸移動*/
-    background-attachment: fixed;
-}
-
-#img_7 {
-    /*插入背景圖片*/
-    background-image: url("../image_mlb/img_7.jpg");
-    /*圖片只出現一次，不重複*/
-    background-repeat: no-repeat;
-    /*背景圖片上下左右置中*/
-    background-position: center center;
-    /*圖片滿版，若要等比例呈現圖片則把cover改為contain*/
-    background-size: auto 90%;
-    /*圖片不隨滾軸移動*/
-    background-attachment: fixed;
-}
-
-#img_8 {
-    /*插入背景圖片*/
-    background-image: url("../image_mlb/img_8.jpg");
-    /*圖片只出現一次，不重複*/
-    background-repeat: no-repeat;
-    /*背景圖片上下左右置中*/
-    background-position: center center;
-    /*圖片滿版，若要等比例呈現圖片則把cover改為contain*/
-    background-size: auto 90%;
-    /*圖片不隨滾軸移動*/
-    background-attachment: fixed;
-}
-
-#img_9 {
-    /*插入背景圖片*/
-    background-image: url("../image_mlb/img_9.jpg");
-    /*圖片只出現一次，不重複*/
-    background-repeat: no-repeat;
-    /*背景圖片上下左右置中*/
-    background-position: center center;
-    /*圖片滿版，若要等比例呈現圖片則把cover改為contain*/
-    background-size: auto 90%;
-    /*圖片不隨滾軸移動*/
-    background-attachment: fixed;
-}
-
-#img_10 {
-    /*插入背景圖片*/
-    background-image: url("../image_mlb/img_10.jpg");
-    /*圖片只出現一次，不重複*/
-    background-repeat: no-repeat;
-    /*背景圖片上下左右置中*/
-    background-position: center center;
-    /*圖片滿版，若要等比例呈現圖片則把cover改為contain*/
-    background-size: auto 90%;
-    /*圖片不隨滾軸移動*/
-    background-attachment: fixed;
-}
-
-#img_11 {
-    /*插入背景圖片*/
-    background-image: url("../image_mlb/img_11.jpg");
-    /*圖片只出現一次，不重複*/
-    background-repeat: no-repeat;
-    /*背景圖片上下左右置中*/
-    background-position: center center;
-    /*圖片滿版，若要等比例呈現圖片則把cover改為contain*/
-    background-size: auto 90%;
-    /*圖片不隨滾軸移動*/
-    background-attachment: fixed;
-}
-
-#img_12 {
-    /*插入背景圖片*/
-    background-image: url("../image_mlb/img_12.jpg");
-    /*圖片只出現一次，不重複*/
-    background-repeat: no-repeat;
-    /*背景圖片上下左右置中*/
-    background-position: center center;
-    /*圖片滿版，若要等比例呈現圖片則把cover改為contain*/
-    background-size: auto 90%;
-    /*圖片不隨滾軸移動*/
-    background-attachment: fixed;
-}
-
-#img_13 {
-    /*插入背景圖片*/
-    background-image: url("../image_mlb/img_13.jpg");
-    /*圖片只出現一次，不重複*/
-    background-repeat: no-repeat;
-    /*背景圖片上下左右置中*/
-    background-position: center center;
-    /*圖片滿版，若要等比例呈現圖片則把cover改為contain*/
-    background-size: auto 90%;
-    /*圖片不隨滾軸移動*/
-    background-attachment: fixed;
-}
-
-#img_14 {
-    /*插入背景圖片*/
-    background-image: url("../image_mlb/img_14.jpg");
-    /*圖片只出現一次，不重複*/
-    background-repeat: no-repeat;
-    /*背景圖片上下左右置中*/
-    background-position: center center;
-    /*圖片滿版，若要等比例呈現圖片則把cover改為contain*/
-    background-size: auto 90%;
-    /*圖片不隨滾軸移動*/
-    background-attachment: fixed;
-}
-
-#img_15 {
-    /*插入背景圖片*/
-    background-image: url("../image_mlb/img_15.jpg");
-    /*圖片只出現一次，不重複*/
-    background-repeat: no-repeat;
-    /*背景圖片上下左右置中*/
-    background-position: center center;
-    /*圖片滿版，若要等比例呈現圖片則把cover改為contain*/
-    background-size: auto 90%;
-    /*圖片不隨滾軸移動*/
-    background-attachment: fixed;
-}
-
-#img_16 {
-    /*插入背景圖片*/
-    background-image: url("../image_mlb/img_16.jpg");
-    /*圖片只出現一次，不重複*/
-    background-repeat: no-repeat;
-    /*背景圖片上下左右置中*/
-    background-position: center center;
-    /*圖片滿版，若要等比例呈現圖片則把cover改為contain*/
-    background-size: auto 90%;
-    /*圖片不隨滾軸移動*/
-    background-attachment: fixed;
-}
-
-#img_17 {
-    /*插入背景圖片*/
-    background-image: url("../image_mlb/img_17.jpg");
-    /*圖片只出現一次，不重複*/
-    background-repeat: no-repeat;
-    /*背景圖片上下左右置中*/
-    background-position: center center;
-    /*圖片滿版，若要等比例呈現圖片則把cover改為contain*/
-    background-size: auto 90%;
-    /*圖片不隨滾軸移動*/
-    background-attachment: fixed;
+/*圖片設定*/
+.img {
+    max-height: 70vh;
+    max-width: auto;
 }

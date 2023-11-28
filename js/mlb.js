@@ -4,7 +4,6 @@ var arrow_right = document.getElementById('arrow_right');
 var x;
 var x1 = 1;
 var x2 = 18;
-var img_old = 'img_1';
 arrow_left.onclick = function () {
     'use strict';
     x2 = x2 - 1;
@@ -19,8 +18,7 @@ arrow_left.onclick = function () {
     x1 = x2;
     x = x2.toString();
     var img_name = 'img_' + x;
-    document.getElementById(img_old).id = img_name;
-    img_old = img_name;
+    document.getElementById('img').src = "image_mlb/" + img_name + ".jpg";
 };
 
 arrow_right.onclick = function () {
@@ -38,6 +36,5 @@ arrow_right.onclick = function () {
     x = x1;
     x = x1.toString();
     var img_name = 'img_' + x;
-    document.getElementById(img_old).id = img_name;
-    img_old = img_name;
+    document.getElementById('img').src = "image_mlb/" + img_name + ".jpg";
 };
