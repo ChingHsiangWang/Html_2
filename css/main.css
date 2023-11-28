@@ -1,0 +1,50 @@
+.section_flex {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*框出一個在flexible container中漂移的box，文字及物件置中、由左至右排列*/
+.section_block {
+    width: 75vw;
+    height: 85vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.style_0 {
+    background-color: rgba(41, 47, 54);
+    font: bold 'Noto Sans TC', sans-serif;
+    color: #E9C46A
+}
+
+.style_1 {
+    background-color: transparent;
+    font: bold 6vmin 'Noto Sans TC', sans-serif;
+    color: #E9C46A;
+    border-color: #E9C46A;
+    border-width: 4px;
+    border: solid;
+    text-shadow: 1px 1px 2px #000;
+    margin: 0.3em;
+}
+
+a:link {
+    color: #E9C46A;
+}
+
+a:hover {
+    color: #3BF4FB;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+}
