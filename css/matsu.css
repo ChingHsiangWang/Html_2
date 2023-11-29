@@ -1,21 +1,35 @@
-/*框出一個滿版的flexible container，物件上下左右置中*/
-.section_flex {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
+/*Noto Sans Traditional Chinese*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+
+header {
+    background-color: rgba(41, 47, 54);
+    color: #E9C46A;
+    text-align: center;
     align-items: center;
+    justify-content: center;
+    font: bold 6vmin 'Noto Sans TC', sans-serif;
+    color: #E9C46A;
+    border-color: #E9C46A;
+    border-width: 4px;
+    border-bottom-style: double;
+    text-shadow: 1px 1px 2px #000;
+    margin: 0.3em;
 }
 
-/*框出一個在flexible container中漂移的box，文字及物件置中、由左至右排列*/
-.section_block {
-    width: 75vw;
-    height: 90vh;
-    display: flex;
+.main {
+    background-color: rgba(41, 47, 54);
+    color: #E9C46A;
     text-align: center;
+    align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
+}
+
+footer {
+    background-color: rgba(41, 47, 54);
+    color: #E9C46A;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 /*文字垂直置中*/
@@ -33,47 +47,6 @@
 
 .section_v {
     display: inline-block;
-}
-
-/*設定文字、背景*/
-/*Noto Sans Traditional Chinese*/
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
-
-.style_0 {
-    background-color: rgba(41, 47, 54);
-    font: bold 'Noto Sans TC', sans-serif;
-    color: #E9C46A
-}
-
-.style_1 {
-    background-color: transparent;
-    font: bold 6vmin 'Noto Sans TC', sans-serif;
-    color: #E9C46A;
-    border-color: #E9C46A;
-    border-width: 4px;
-    border-bottom-style: double;
-    text-shadow: 1px 1px 2px #000;
-    margin: 0.3em;
-}
-
-.style_2 {
-    height: 70vh;
-    background-color: transparent;
-    font: bold 3vmin 'Noto Sans TC', sans-serif;
-    color: white;
-    justify-content: center;
-    text-align: justify;
-    border-color: none;
-    border-width: none;
-    border-bottom-style: none;
-    text-shadow: 1px 1px 2px #000;
-    margin: none;
-}
-
-.style_3 {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
 /*設定button樣式*/
@@ -100,7 +73,7 @@
 /*箭頭按鈕*/
 .arrow {
     border: solid #FADF63;
-    border-width: 0px 10px 10px 0;
+    border-width: 0px 2vmin 2vmin 0;
     border-radius: 4px;
     display: inline-block;
     padding: 5px;
@@ -109,7 +82,7 @@
 
 .arrow:hover {
     border: solid #3BF4FB;
-    border-width: 0px 10px 10px 0;
+    border-width: 0px 2vmin 2vmin 0;
     border-radius: 4px;
     display: inline-block;
     padding: 5px;
@@ -127,5 +100,6 @@
 /*圖片設定*/
 .img {
     max-height: 70vh;
-    max-width: 60vw;
+    max-width: 70vw;
+    margin: 3vmin;
 }
