@@ -1,4 +1,5 @@
 /*eslint-env browser*/
+/*jslint white:true*/
 var x;
 var x1 = 1;
 
@@ -123,6 +124,7 @@ document.addEventListener('click', function () {
     var img_name = 'img_' + x;
     document.getElementById('img').src = "../../image_China/image_Shanghai_Hangzhou/" + img_name + ".jpg";
 });
+
 
 document.addEventListener('keydown', function (event) {
     'use strict';
