@@ -22,7 +22,7 @@ arrow_left.onclick = function () {
     if (x2 >= 9 && x2 <= 11) {
         document.getElementById('position_name').innerHTML = '南竿-北海坑道';
     }
-    if (x2 == 12) {
+    if (x2 === 12) {
         document.getElementById('position_name').innerHTML = '南竿-馬祖日報社';
     }
     if (x2 >= 13 && x2 <= 15) {
@@ -31,22 +31,22 @@ arrow_left.onclick = function () {
     if (x2 >= 16 && x2 <= 26) {
         document.getElementById('position_name').innerHTML = '南竿-津沙聚落';
     }
-    if (x2 == 27) {
+    if (x2 === 27) {
         document.getElementById('position_name').innerHTML = '南竿-沐光民宿';
     }
     if (x2 >= 28 && x2 <= 29) {
         document.getElementById('position_name').innerHTML = '南竿-雲台山';
     }
-    if (x2 == 30) {
+    if (x2 === 30) {
         document.getElementById('position_name').innerHTML = '南竿-馬祖劍碑';
     }
-    if (x2 == 31) {
+    if (x2 === 31) {
         document.getElementById('position_name').innerHTML = '南竿-馬祖港';
     }
-    if (x2 == 32) {
+    if (x2 === 32) {
         document.getElementById('position_name').innerHTML = '南竿-馬祖天后宮';
     }
-    if (x2 == 33) {
+    if (x2 === 33) {
         document.getElementById('position_name').innerHTML = '南竿-媽祖巨神像';
     }
     if (x2 >= 34 && x2 <= 35) {
@@ -64,16 +64,16 @@ arrow_left.onclick = function () {
     if (x2 >= 53 && x2 <= 55) {
         document.getElementById('position_name').innerHTML = '北竿-壁山';
     }
-    if (x2 == 56) {
+    if (x2 === 56) {
         document.getElementById('position_name').innerHTML = '北竿-坂里大宅';
     }
-    if (x2 == 57) {
+    if (x2 === 57) {
         document.getElementById('position_name').innerHTML = '北竿-坂里沙灘';
     }
-    if (x2 == 58) {
+    if (x2 === 58) {
         document.getElementById('position_name').innerHTML = '北竿-南竿';
     }
-    if (x2 == 59) {
+    if (x2 === 59) {
         document.getElementById('position_name').innerHTML = '南竿-星巴克';
     }
     if (x2 >= 60 && x2 <= 64) {
@@ -84,7 +84,6 @@ arrow_left.onclick = function () {
     var img_name = 'img_' + x;
     document.getElementById('img').src = "../../image_Taiwan/image_Matsu/" + img_name + ".jpg";
 };
-
 arrow_right.onclick = function () {
     'use strict';
     x1 = x1 + 1;
@@ -103,7 +102,7 @@ arrow_right.onclick = function () {
     if (x1 >= 9 && x1 <= 11) {
         document.getElementById('position_name').innerHTML = '南竿-北海坑道';
     }
-    if (x1 == 12) {
+    if (x1 === 12) {
         document.getElementById('position_name').innerHTML = '南竿-馬祖日報社';
     }
     if (x1 >= 13 && x1 <= 15) {
@@ -112,22 +111,22 @@ arrow_right.onclick = function () {
     if (x1 >= 16 && x1 <= 26) {
         document.getElementById('position_name').innerHTML = '南竿-津沙聚落';
     }
-    if (x1 == 27) {
+    if (x1 === 27) {
         document.getElementById('position_name').innerHTML = '南竿-沐光民宿';
     }
     if (x1 >= 28 && x1 <= 29) {
         document.getElementById('position_name').innerHTML = '南竿-雲台山';
     }
-    if (x1 == 30) {
+    if (x1 === 30) {
         document.getElementById('position_name').innerHTML = '南竿-馬祖劍碑';
     }
-    if (x1 == 31) {
+    if (x1 === 31) {
         document.getElementById('position_name').innerHTML = '南竿-馬祖港';
     }
-    if (x1 == 32) {
+    if (x1 === 32) {
         document.getElementById('position_name').innerHTML = '南竿-馬祖天后宮';
     }
-    if (x1 == 33) {
+    if (x1 === 33) {
         document.getElementById('position_name').innerHTML = '南竿-媽祖巨神像';
     }
     if (x1 >= 34 && x1 <= 35) {
@@ -145,16 +144,16 @@ arrow_right.onclick = function () {
     if (x1 >= 53 && x1 <= 55) {
         document.getElementById('position_name').innerHTML = '北竿-壁山';
     }
-    if (x1 == 56) {
+    if (x1 === 56) {
         document.getElementById('position_name').innerHTML = '北竿-坂里大宅';
     }
-    if (x1 == 57) {
+    if (x1 === 57) {
         document.getElementById('position_name').innerHTML = '北竿-坂里沙灘';
     }
-    if (x1 == 58) {
+    if (x1 === 58) {
         document.getElementById('position_name').innerHTML = '北竿-南竿';
     }
-    if (x1 == 59) {
+    if (x1 === 59) {
         document.getElementById('position_name').innerHTML = '南竿-星巴克';
     }
     if (x1 >= 60 && x1 <= 64) {
